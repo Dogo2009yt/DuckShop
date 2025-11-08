@@ -39,15 +39,15 @@ body {
     text-align: center;
 }
 
-#carrello img{
+#carrello img {
     width: 5%;
     position: absolute;
     right: 20px;
-    top:25px;
+    top: 25px;
     cursor: pointer;
 }
 
-#papera{
+#papera {
     margin-top: 70px;
     height: 500px;
     width: 800px;
@@ -55,15 +55,15 @@ body {
     border-radius: 50px;
 }
 
-#papera img{
+#papera img {
     position: relative;
-    top:70px;
+    top: 70px;
     left: 50px;
     height: 70%;
     border-radius: 50px;
 }
 
-#papera div{
+#papera div {
     position: absolute;
     width: 300px;
     top: 35%;
@@ -74,52 +74,57 @@ body {
     justify-content: center;
 }
 
-#papera div h1{
+#papera div h1 {
     position: absolute;
     top: -30%;
     right: 30%;
 }
 
-#papera button{
+#papera button {
     position: absolute;
-    bottom:-30%;
+    bottom: -30%;
     right: 32%;
     cursor: pointer;
 }
 
-#papera div p{
+#papera div p {
     position: relative;
     top: 25%;
     right: 7%;
 }
 
-table{
+table {
     position: absolute;
     bottom: -300px;
-    border-spacing:30px;
     font-size: xx-large;
-    border-color: black;
     text-align: center;
     margin-bottom: 100px;
-    border-radius: 10px;
 }
-table, td, th{
-    border: 3px solid black;
+
+table,
+td,
+th {
+    border: 3px solid rgb(227, 252, 0);
     border-collapse: collapse;
     padding: 10px;
-}
-td,th{
     background-color: white;
 }
+
 
 body::after {
     content: "";
     display: block;
-    height: 200px; /* spazio extra alla fine */
+    height: 200px;
+    /* spazio extra alla fine */
 }
 
-footer{
+footer {
     width: 100%;
     text-align: center;
     background-color: rgba(255, 255, 0, 0.374);
+}
+
+iframe{
+    position: absolute;
+    bottom: -600px;
 }
